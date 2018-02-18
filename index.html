@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>越知网络首页</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		
+		<script type="text/javascript">
+			window.onload = function(){
+				var oUl = document.getElementById('Ul');
+				var oLi = oUl.children;
+				
+				var timer = null;
+				var num = 0;
+				
+				timer = setInterval(function(){
+						num++;
+						oUl.style.marginLeft = - num*100 +'%';
+						oUl.style.transition = '1s';
+						if(num == 4){
+							num = 0;
+							oUl.style.transition = 'none';
+							oUl.style.marginLeft = - num*100 +'%';
+						}
+				},3000)
+			}
+		</script>
+	</head>
+	<body>
+		<div class="banner1">
+			<ul id="Ul">
+				<li><img src="images/banner1.jpg"/></li>
+				<li><img src="images/banner2.jpg"/></li>
+				<li><img src="images/banner3.jpg"/></li>
+				<li><img src="images/banner1.jpg"/></li>
+				<li><img src="images/banner2.jpg"/></li>
+				<li><img src="images/banner3.jpg"/></li>
+			</ul>
+		</div>
+		<div class="header_bor">
+			<div class="header">
+				<div class="logo">
+					<img src="images/logo.png"/>
+				</div>
+				<div class="nav">                                               
+					<ul>
+						<li class="l1"><a href="#">首页</a></li>
+						<li><a href="about_yuezhi.html">关于越知</a></li>
+						<li><a href="news_center.html">新闻中心</a></li>
+						<li><a href="product_center.html">产品中心</a></li>
+						<li><a href="hand_in_hand.html">携手越知</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		<div class="main1">
+			<div class="main1_top">
+				<h2 class="main1_top_h1">关于越知</h2>
+				<h2 class="main1_top_h2">ABOUT　YUEZHI</h2>
+				<a href="#">MORE<span>+</span></a>
+			</div>
+			<div class="main1_center">
+				<div class="main1_center1">
+					<h4>我们的团队</h4>
+					<span></span>
+					<p>广西越知网络股份有限公司，是一家致力于与建筑行业内相关联的互联网解方
+案及优秀产品开发的公司。</p>
+				</div>
+				<div class="main1_center2">
+					<h4>公司背景</h4>
+					<span></span>
+					<p>本公司的创始人及股东均为建筑行业内的精英人士，是由广西建工集团基础建设有
+限公司与广西南都建筑设计有限公司共同联手创建的科技型网络技术企业。注册资金500万元</p>
+				</div>
+				<div class="main1_center3">
+					<h4>我们的服务</h4>
+					<span></span>
+					<p>旗下的互联网产品-“U建”将成为中国互联网历史上第一款涵盖建筑行业全行业内
+的运营及管理平台，实现真正意义上建筑行业的“互联网+”。</p>
+				</div>
+			</div>
+		</div>
+		<div class="banner2">
+			<a href="#">MORE<span>+</span></a>
+		</div>
+		<div class="main2">
+			<div class="main2_top">
+				<h2 class="main2_top_h1">新闻中心</h2>
+				<h2 class="main2_top_h2">NEWS　CENTER</h2>
+				<a href="#">MORE<span>+</span></a>
+			</div>
+			
+			<div class="main2_center">
+				<div class="main2_center_limit">
+					<!--main2_center1-->
+					<div class="main2_center1">
+						<span class="main2_center_sp1">
+							<h2>23</h2>
+							<h3>2015-11</h3>
+						</span>
+						<h4>互联网+的管理革命 施工企业将迎两化融合</h4>
+						<p>随着工程建设发展不断加快，互联网日益影响到了工程建设当中各个节点当中，互联网推动行…</p>
+					</div>
+					<!--main2_center1-->
+					<!--main2_center2-->
+					<div class="main2_center1">
+						<span class="main2_center_sp2">
+							<h2>08</h2>
+							<h3>2015-11</h3>
+						</span>
+						<h4>一带一路”侧重基础设施建设 利好工程机械</h4>
+						<p>据统计，今年1——7月，城镇固定资产投资额为288469亿元人民币，同比增112%，较预期低03…</p>
+					</div>
+					<!--main2_center2-->
+					<!--main2_center3-->
+					<div class="main2_center1">
+						<span class="main2_center_sp3">
+							<h2>05</h2>
+							<h3>2015-11</h3>
+						</span>
+						<h4>面临人力结构性改革 建筑业工业化转型遇最好时机</h4>
+						<p>日前，国务院在其颁布的《关于进一步加强城市规划建设管理工作的若干意见》（简称《意见》）…</p>
+					</div>
+					<!--main2_center3-->
+					<!--main2_center4-->
+					<div class="main2_center1">
+						<span class="main2_center_sp4">
+							<h2>12</h2>
+							<h3>2015-11</h3>
+						</span>
+						<h4>供需两侧发力 促绿色建筑行业发展</h4>
+						<p>日前发布的《中共中央国务院关于进一步加强城市规划建设管理工作的若干意见》明确提出，要…</p>
+					</div>
+					<!--main2_center4-->
+				</div>
+			</div>
+		</div>
+		<div class="banner3">
+			<div class="banner3_text">
+				<h2 class="banner3_text_h1">携手越知</h2>
+				<h2 class="banner3_text_h2">HAND&nbsp;IN&nbsp;HAND</h2>
+				<p>重视团队与合作，是健康持续增长的基础，体现以人为本的精神，意味着重视人的价值和团队精神的塑造，构建与同事、客
+户、商业伙伴、政府和社会诚信承诺和合作共赢的关系，实现个人、企业和社会的共同发展。</p>
+			</div>
+		</div>
+		<div class="footer">
+			<span class="footer_logo"></span>
+			<span class="footer_line"></span>
+			<ul>
+				<li class="l1"><a href="#">首页</a></li>
+				<li><a href="corporate_culture.html">关于越知</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product_center.html">产品中心</a></li>
+				<li><a href="hand_in_hand.html">携手越知</a></li>
+			</ul>
+			
+			<h3><span></span>0771-2755698</h3>
+			<p>南宁市西乡塘区秀厢大道西段18号</p>
+		</div>
+	</body>
+</html>
