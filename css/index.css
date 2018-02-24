@@ -7,62 +7,64 @@
 }
 
 .banner1{
-	width: 1920px;
-	height: 677px;
-	position: relative;
+	width: 100%;
+	display: block;
+	max-width: 1920px;
+	min-width: 900px;
 	overflow: hidden;
+	/*height: 677px;*/
 }
 
 #Ul{
-	width: 600%;
+	width: 300%;
+}
+
+#Ul li img{
+	width: 100%;
 }
 
 #Ul li{
+	width: 33.33%;
 	float: left;
 	
 }
 
 .header_bor{
-	width: 1920px;
+	clear: both;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	height: 95px;
 	border-bottom: 1px solid #e8e8e8;
 }
 
 .header{
-	width: 1002px;
+	width: 60%;
 	margin: 0 auto;
-	position: relative;
-	
-	
 }
 
 .logo{
 	width: 210px;
 	height: 57px;
 	float: left;
-	margin: 18px 0 0 10px;
+	margin: 18px 50px 0 10px;
 }
 
 .nav{
 	width: 660px;
-	float: left;
 	margin: 0 0 0 195px;
 	font-size: 16px;
 	line-height: 95px;
 	font-family: "微软雅黑";
-	position: absolute;
-	left: 415px;
 }
 
 .nav ul li{
-	margin-right: 71px;
+	margin-right: 58px;
 	float: left;
 }
 
 .nav ul li a{
-	/*height: 95px;*/
 	color: #6b6b6b;
-	/*border: 1px solid #00aeff;*/
 }
 
 .nav .l1 a, .nav ul li a:hover{
@@ -184,7 +186,9 @@
 }
 
 .banner2{
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	height: 648px;
 	background: url(../images/index_banner2.jpg) no-repeat;
 	position: relative;
@@ -296,7 +300,9 @@
 }
 
 .banner3{
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	height: 445px;
 	background: url(../images/index_banner3.jpg) no-repeat;
 	overflow: hidden;
@@ -329,7 +335,9 @@
 }
 
 .footer{
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	height: 228px;
 	background: #2a2a2a;
 	position: relative;
@@ -340,7 +348,7 @@
 	height: 57px;
 	background: url(../images/logo.png) no-repeat;
 	position: absolute;
-	left: 480px;
+	left: 172px;
 	top: 85px;
 }
 
@@ -349,13 +357,13 @@
 	height: 90px;
 	background: url(../images/footer_icon.png) no-repeat -14px -35px;
 	position: absolute;
-	left: 811px;
+	left: 459px;
 	top: 64px;
 }
 
 .footer ul{
 	position: absolute;
-	left: 924px;
+	left: 539px;
 	top: 56px;
 }
 
@@ -375,7 +383,7 @@
 
 .footer h3{
 	position: absolute;
-	left: 926px;
+	left: 540px;
 	top: 110px;
 	font-size: 24px;
 	color: #676765;
@@ -391,7 +399,7 @@
 
 .footer p{
 	position: absolute;
-	left: 928px;
+	left: 540px;
 	top: 169px;
 	font-size: 14px;
 	color: #858585;

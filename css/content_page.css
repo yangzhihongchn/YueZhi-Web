@@ -7,7 +7,9 @@
 }
 
 .header{
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	height: 98px;
 	position: relative;
 }
@@ -17,13 +19,13 @@
 	height: 57px;
 	background: url(../images/logo.png) no-repeat;
 	position: absolute;
-	left: 470px;
+	left: 148px;
 	top: 20px;
 }
 
 .header ul{
 	position: absolute;
-	left: 875px;
+	left: 673px;
 	top: 42px;
 }
 
@@ -50,6 +52,9 @@
 }
 
 .about_yuezhi_banner{
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	background: url(../images/about_yuezhi_banner.jpg) no-repeat;
 }
 
@@ -166,7 +171,9 @@
 }
 
 .footer{
-	width: 1920px;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 900px;
 	height: 228px;
 	background: #2a2a2a;
 	position: relative;
@@ -177,7 +184,7 @@
 	height: 57px;
 	background: url(../images/logo.png) no-repeat;
 	position: absolute;
-	left: 480px;
+	left: 172px;
 	top: 85px;
 }
 
@@ -186,13 +193,13 @@
 	height: 90px;
 	background: url(../images/footer_icon.png) no-repeat -14px -35px;
 	position: absolute;
-	left: 811px;
+	left: 459px;
 	top: 64px;
 }
 
 .footer ul{
 	position: absolute;
-	left: 924px;
+	left: 539px;
 	top: 56px;
 }
 
@@ -212,7 +219,7 @@
 
 .footer h3{
 	position: absolute;
-	left: 926px;
+	left: 540px;
 	top: 110px;
 	font-size: 24px;
 	color: #676765;
@@ -228,7 +235,7 @@
 
 .footer p{
 	position: absolute;
-	left: 928px;
+	left: 540px;
 	top: 169px;
 	font-size: 14px;
 	color: #858585;

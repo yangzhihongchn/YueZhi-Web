@@ -8,30 +8,22 @@
 		<script type="text/javascript">
 			window.onload = function(){
 				var oUl = document.getElementById('Ul');
-				var oLi = oUl.children;
-				
 				var timer = null;
 				var num = 0;
 				
 				timer = setInterval(function(){
-						num++;
-						oUl.style.marginLeft = - num*100 +'%';
-						oUl.style.transition = '1s';
-						if(num == 4){
-							num = 0;
-							oUl.style.transition = 'none';
-							oUl.style.marginLeft = - num*100 +'%';
-						}
+					num++;
+					oUl.style.transition = '1s';
+					oUl.style.marginLeft = -num*100 +'%';
+					num%=2;
 				},3000)
+//				
 			}
 		</script>
 	</head>
 	<body>
 		<div class="banner1">
 			<ul id="Ul">
-				<li><img src="images/banner1.jpg"/></li>
-				<li><img src="images/banner2.jpg"/></li>
-				<li><img src="images/banner3.jpg"/></li>
 				<li><img src="images/banner1.jpg"/></li>
 				<li><img src="images/banner2.jpg"/></li>
 				<li><img src="images/banner3.jpg"/></li>
